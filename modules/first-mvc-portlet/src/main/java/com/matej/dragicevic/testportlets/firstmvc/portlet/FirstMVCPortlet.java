@@ -18,7 +18,8 @@ import org.osgi.service.component.annotations.Component;
 		"com.liferay.portlet.instanceable=true",
 		"javax.portlet.display-name=first-mvc-portlet Portlet",
 		"javax.portlet.init-param.template-path=/",
-		"javax.portlet.init-param.view-template=/view.jsp",
+		"javax.portlet.init-param.view-template=/html/view.jsp",
+		"com.liferay.portlet.header-portlet-javascript=/js/test.js",
 		"javax.portlet.name=" + FirstMVCPortletKeys.FirstMVC,
 		"javax.portlet.resource-bundle=content.Language",
 		"javax.portlet.security-role-ref=power-user,user"
