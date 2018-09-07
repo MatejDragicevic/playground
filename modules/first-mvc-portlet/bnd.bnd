@@ -1,0 +1,4 @@
+Bundle-Name: first-mvc-portlet
+Bundle-SymbolicName: com.matej.dragicevic.testportlets.firstmvc
+Bundle-Version: 1.0.0
+Export-Package: com.matej.dragicevic.testportlets.firstmvc.constants
