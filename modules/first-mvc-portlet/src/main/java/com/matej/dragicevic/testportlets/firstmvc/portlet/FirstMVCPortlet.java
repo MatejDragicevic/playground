@@ -20,6 +20,8 @@ import org.osgi.service.component.annotations.Component;
 		"javax.portlet.init-param.template-path=/",
 		"javax.portlet.init-param.view-template=/html/view.jsp",
 		"com.liferay.portlet.header-portlet-javascript=/js/test.js",
+		"com.liferay.portlet.header-portlet-javascript=/js/handlebars.runtime-v4.0.12.js",
+		"com.liferay.portlet.header-portlet-javascript=/js/template.js",
 		"javax.portlet.name=" + FirstMVCPortletKeys.FirstMVC,
 		"javax.portlet.resource-bundle=content.Language",
 		"javax.portlet.security-role-ref=power-user,user"
