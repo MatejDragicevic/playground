@@ -8,4 +8,7 @@ var context = {
 
 var html = Handlebars.templates.test(context);
 
+var liferayTbody = jQuery('.liferay-table').find('tbody');
+liferayTbody.append(html);
+
 console.log(html);
